@@ -44,6 +44,78 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 python recipe_ai_generator.py
 ```
 
+### 5. Preview
+
+```bash
+
+Welcome to the AI Recipe Generator with Prompt Structuring!
+
+Enter ingredients separated by commas:
+> chicken, garlic, tomatoes
+
+Choose the prompt style to generate the recipe:
+1. Simple
+2. Detailed
+3. Creative
+4. Quick and Healthy
+5. Custom prompt (write your own)
+
+Enter the number of your choice:
+> 2
+
+--- Prompt used for AI ---
+Using the following ingredients: chicken, garlic, tomatoes, write a detailed and easy-to-follow cooking recipe. Include the dish name, cooking time, servings, ingredients list with quantities, and numbered step-by-step instructions.
+
+Generating recipe...
+
+Dish Name: Garlic Tomato Chicken Delight
+
+Cooking Time: 40 minutes  
+Servings: 4
+
+Ingredients:
+- 500g chicken breast, diced
+- 3 cloves garlic, minced
+- 2 large tomatoes, chopped
+- 1 tablespoon olive oil
+- Salt and pepper to taste
+- 1 teaspoon dried oregano
+- 1/2 cup chicken broth
+
+Instructions:
+1. Heat olive oil in a skillet over medium heat.
+2. Add minced garlic and sauté for 1-2 minutes until fragrant.
+3. Add the diced chicken and cook until lightly browned on all sides.
+4. Stir in chopped tomatoes, oregano, salt, and pepper.
+5. Pour in chicken broth and simmer for 20 minutes until the sauce thickens.
+6. Serve hot with rice or crusty bread.
+
+Tips: Add fresh basil for a more aromatic touch.
+
+Would you like to see a Spoonacular API generated recipe for comparison? (y/n):
+> y
+
+--- Spoonacular Recipe ---
+
+Dish Name: Tomato Garlic Chicken
+
+Description:
+A savory and easy-to-make chicken dish using fresh garlic and tomatoes...
+
+Cooking Time: 35 minutes  
+Servings: 4
+
+Procedure:
+1. Heat a pan and cook garlic until golden.
+2. Add chicken and sear all sides.
+3. Toss in tomatoes and cook until soft.
+4. Simmer until chicken is fully cooked.
+5. Serve warm with pasta or salad.
+
+Tips: You can customize this recipe by adding extra herbs or sides of your choice.
+
+
+```
 ---
 
 ## 🧰 Libraries Used
